@@ -1,0 +1,148 @@
+[0m10:39:17.240879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108de0c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112853800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1128533b0>]}
+
+
+============================== 10:39:17.246566 | c6092780-3046-4d29-aff6-16e5e7b43128 ==============================
+[0m10:39:17.246566 [info ] [MainThread]: Running with dbt=1.8.6
+[0m10:39:17.246872 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/acatanzaro/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m10:39:33.828886 [debug] [MainThread]: Starter project path: /Users/acatanzaro/personal_projects/ffb24/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m10:39:33.842345 [info ] [MainThread]: 
+Your new dbt project "fantasy_2024" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:39:33.842925 [info ] [MainThread]: Setting up your profile.
+[0m10:39:49.444530 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 32.252167, "process_user_time": 0.706286, "process_kernel_time": 0.151461, "process_mem_max_rss": "115146752", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:39:49.444994 [debug] [MainThread]: Command `dbt init` succeeded at 10:39:49.444912 after 32.25 seconds
+[0m10:39:49.445235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1128f88c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112880b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1128536e0>]}
+[0m10:39:49.445460 [debug] [MainThread]: Flushing usage events
+[0m10:44:52.521720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1064d12b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068a7110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068a6cf0>]}
+
+
+============================== 10:44:52.523832 | d9ffc5a6-3cac-4fbe-945d-80e55ff1e385 ==============================
+[0m10:44:52.523832 [info ] [MainThread]: Running with dbt=1.8.6
+[0m10:44:52.524148 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/acatanzaro/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:44:52.529197 [info ] [MainThread]: dbt version: 1.8.6
+[0m10:44:52.529445 [info ] [MainThread]: python version: 3.12.5
+[0m10:44:52.529589 [info ] [MainThread]: python path: /Users/acatanzaro/personal_projects/ffb24/.venv/bin/python
+[0m10:44:52.529716 [info ] [MainThread]: os info: macOS-14.6.1-arm64-arm-64bit
+[0m10:44:52.533194 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m10:44:52.602231 [info ] [MainThread]: Using profiles dir at /Users/acatanzaro/.dbt
+[0m10:44:52.602488 [info ] [MainThread]: Using profiles.yml file at /Users/acatanzaro/.dbt/profiles.yml
+[0m10:44:52.602642 [info ] [MainThread]: Using dbt_project.yml file at /Users/acatanzaro/personal_projects/ffb24/src/dbt_project.yml
+[0m10:44:52.602796 [info ] [MainThread]: Configuration:
+[0m10:44:52.602926 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m10:44:52.603046 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:44:52.603165 [info ] [MainThread]: Required dependencies:
+[0m10:44:52.603337 [debug] [MainThread]: Executing "git --help"
+[0m10:44:52.648889 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:44:52.649469 [debug] [MainThread]: STDERR: "b''"
+[0m10:44:52.649647 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:44:52.649815 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m10:44:52.650079 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m10:44:52.650214 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "digital_banking_foundation", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m10:44:52.650361 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/acatanzaro/personal_projects/ffb24/src/dbt_project.yml> not found
+
+[0m10:44:52.650750 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.16182363, "process_user_time": 0.602756, "process_kernel_time": 0.108201, "process_mem_max_rss": "111575040", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:44:52.651092 [debug] [MainThread]: Command `dbt debug` failed at 10:44:52.651041 after 0.16 seconds
+[0m10:44:52.651333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a13140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065fee40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068cea20>]}
+[0m10:44:52.651560 [debug] [MainThread]: Flushing usage events
+[0m10:46:36.028780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107953620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108352e40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108352900>]}
+
+
+============================== 10:46:36.030968 | fc5dd1da-61a0-4260-ba34-ae6fe61fb4d6 ==============================
+[0m10:46:36.030968 [info ] [MainThread]: Running with dbt=1.8.6
+[0m10:46:36.031274 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/acatanzaro/personal_projects/ffb24/src/fantasy_2024', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:46:36.036235 [info ] [MainThread]: dbt version: 1.8.6
+[0m10:46:36.036481 [info ] [MainThread]: python version: 3.12.5
+[0m10:46:36.036622 [info ] [MainThread]: python path: /Users/acatanzaro/personal_projects/ffb24/.venv/bin/python
+[0m10:46:36.036752 [info ] [MainThread]: os info: macOS-14.6.1-arm64-arm-64bit
+[0m10:46:36.108629 [info ] [MainThread]: Using profiles dir at /Users/acatanzaro/personal_projects/ffb24/src/fantasy_2024
+[0m10:46:36.108897 [info ] [MainThread]: Using profiles.yml file at /Users/acatanzaro/personal_projects/ffb24/src/fantasy_2024/profiles.yml
+[0m10:46:36.109050 [info ] [MainThread]: Using dbt_project.yml file at /Users/acatanzaro/personal_projects/ffb24/src/dbt_project.yml
+[0m10:46:36.111025 [info ] [MainThread]: adapter type: duckdb
+[0m10:46:36.111180 [info ] [MainThread]: adapter version: 1.8.3
+[0m10:46:36.111327 [info ] [MainThread]: Configuration:
+[0m10:46:36.111451 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:46:36.111572 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:46:36.111693 [info ] [MainThread]: Required dependencies:
+[0m10:46:36.111853 [debug] [MainThread]: Executing "git --help"
+[0m10:46:36.128423 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:46:36.128969 [debug] [MainThread]: STDERR: "b''"
+[0m10:46:36.129154 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:46:36.129314 [info ] [MainThread]: Connection:
+[0m10:46:36.129482 [info ] [MainThread]:   database: fantasy_mine
+[0m10:46:36.129609 [info ] [MainThread]:   schema: main
+[0m10:46:36.129726 [info ] [MainThread]:   path: dw/fantasy_mine.duckdb
+[0m10:46:36.129845 [info ] [MainThread]:   config_options: None
+[0m10:46:36.129963 [info ] [MainThread]:   extensions: ['httpfs', 'parquet']
+[0m10:46:36.130078 [info ] [MainThread]:   settings: {}
+[0m10:46:36.130191 [info ] [MainThread]:   external_root: .
+[0m10:46:36.130302 [info ] [MainThread]:   use_credential_provider: None
+[0m10:46:36.130407 [info ] [MainThread]:   attach: None
+[0m10:46:36.130519 [info ] [MainThread]:   filesystems: None
+[0m10:46:36.130626 [info ] [MainThread]:   remote: None
+[0m10:46:36.130745 [info ] [MainThread]:   plugins: None
+[0m10:46:36.130858 [info ] [MainThread]:   disable_transactions: False
+[0m10:46:36.131194 [info ] [MainThread]: Registered adapter: duckdb=1.8.3
+[0m10:46:36.135489 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m10:46:36.172175 [debug] [MainThread]: Using duckdb connection "debug"
+[0m10:46:36.172426 [debug] [MainThread]: On debug: select 1 as id
+[0m10:46:36.172574 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:46:36.175814 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m10:46:36.176020 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m10:46:36.176241 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m10:46:36.176453 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m10:46:36.176587 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/acatanzaro/personal_projects/ffb24/src/dbt_project.yml> not found
+
+[0m10:46:36.176719 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  IO Error: Cannot open file "/Users/acatanzaro/personal_projects/ffb24/src/dw/fantasy_mine.duckdb": No such file or directory
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m10:46:36.177029 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.1815313, "process_user_time": 0.609659, "process_kernel_time": 0.127964, "process_mem_max_rss": "118210560", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:46:36.177350 [debug] [MainThread]: Command `dbt debug` failed at 10:46:36.177301 after 0.18 seconds
+[0m10:46:36.177525 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:46:36.177691 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108043dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108350fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084df350>]}
+[0m10:46:36.177912 [debug] [MainThread]: Flushing usage events
+[0m11:30:11.227318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100cef4a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1040ff3e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1040ff020>]}
+
+
+============================== 11:30:11.230167 | 856c55f5-6192-4a27-968d-a54a9ef02363 ==============================
+[0m11:30:11.230167 [info ] [MainThread]: Running with dbt=1.8.6
+[0m11:30:11.230573 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/acatanzaro/personal_projects/ffb24/src/fantasy_2024', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:30:11.230939 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/acatanzaro/personal_projects/ffb24/src/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:30:11.231361 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.07769112, "process_user_time": 0.53804, "process_kernel_time": 0.128887, "process_mem_max_rss": "93896704", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:30:11.231706 [debug] [MainThread]: Command `dbt run` failed at 11:30:11.231650 after 0.08 seconds
+[0m11:30:11.231909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033af2c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1040ff320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1040ff260>]}
+[0m11:30:11.232088 [debug] [MainThread]: Flushing usage events

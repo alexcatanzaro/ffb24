@@ -1,0 +1,126 @@
+Rank,player,Team,Position,ECR,v_ECR
+1,CeeDee Lamb,DAL,WR,1,0
+2,Tyreek Hill,MIA,WR,2,0
+3,Justin Jefferson,MIN,WR,5,2
+4,Amon-Ra St. Brown,DET,WR,4,0
+5,Ja'Marr Chase,CIN,WR,3,-2
+6,Puka Nacua,LAR,WR,8,2
+7,A.J. Brown,PHI,WR,6,-1
+8,Marvin Harrison Jr.,ARI,WR,9,1
+9,Mike Evans,TB,WR,13,4
+10,Deebo Samuel Sr.,SF,WR,14,4
+11,Nico Collins,HOU,WR,15,4
+12,Drake London,ATL,WR,10,-2
+13,Brandon Aiyuk,SF,WR,17,4
+14,Garrett Wilson,NYJ,WR,7,-7
+15,Cooper Kupp,LAR,WR,18,3
+16,DK Metcalf,SEA,WR,19,3
+17,Rashee Rice,KC,WR,28,11
+18,Chris Olave,NO,WR,12,-6
+19,Davante Adams,LV,WR,11,-8
+20,DJ Moore,CHI,WR,20,0
+21,DeVonta Smith,PHI,WR,21,0
+22,Terry McLaurin,WAS,WR,30,8
+23,Tee Higgins,CIN,WR,26,3
+24,Jaylen Waddle,MIA,WR,16,-8
+25,George Pickens,PIT,WR,27,2
+26,Stefon Diggs,HOU,WR,25,-1
+27,Malik Nabers,NYG,WR,23,-4
+28,Christian Kirk,JAC,WR,32,4
+29,Michael Pittman Jr.,IND,WR,22,-7
+30,Diontae Johnson,CAR,WR,35,5
+31,Amari Cooper,CLE,WR,24,-7
+32,Calvin Ridley,TEN,WR,34,2
+33,Zay Flowers,BAL,WR,29,-4
+34,Brian Thomas Jr.,JAC,WR,44,10
+35,Keenan Allen,CHI,WR,36,1
+36,Chris Godwin,TB,WR,33,-3
+37,DeAndre Hopkins,TEN,WR,39,2
+38,Tank Dell,HOU,WR,31,-7
+39,Joshua Palmer,LAC,WR,52,13
+40,Courtland Sutton,DEN,WR,43,3
+41,Christian Watson,GB,WR,40,-1
+42,Romeo Doubs,GB,WR,53,11
+43,Rome Odunze,CHI,WR,42,-1
+44,Mike Williams,NYJ,WR,58,14
+45,Khalil Shakir,BUF,WR,55,10
+46,Jordan Addison,MIN,WR,47,1
+47,Marquise Brown,KC,WR,45,-2
+48,Jaxon Smith-Njigba,SEA,WR,38,-10
+49,Jameson Williams,DET,WR,48,-1
+50,Adonai Mitchell,IND,WR,66,16
+51,Keon Coleman,BUF,WR,49,-2
+52,Xavier Worthy,KC,WR,41,-11
+53,Jayden Reed,GB,WR,37,-16
+54,Ladd McConkey,LAC,WR,46,-8
+55,Tyler Lockett,SEA,WR,50,-5
+56,Jakobi Meyers,LV,WR,51,-5
+57,Curtis Samuel,BUF,WR,57,0
+58,Brandin Cooks,DAL,WR,56,-2
+59,Rashid Shaheed,NO,WR,54,-5
+60,Darnell Mooney,ATL,WR,64,4
+61,Gabe Davis,JAC,WR,60,-1
+62,Dyami Brown,WAS,WR,112,50
+63,Jerry Jeudy,CLE,WR,59,-4
+64,Demarcus Robinson,LAR,WR,75,11
+65,Dontayvion Wicks,GB,WR,62,-3
+66,DeMario Douglas,NE,WR,65,-1
+67,Andrei Iosivas,CIN,WR,83,16
+68,Adam Thielen,CAR,WR,63,-5
+69,Wan'Dale Robinson,NYG,WR,70,1
+70,Greg Dortch,ARI,WR,91,21
+71,Michael Wilson,ARI,WR,68,-3
+72,Jalen McMillan,TB,WR,81,9
+73,Luke McCaffrey,WAS,WR,94,21
+74,Josh Downs,IND,WR,61,-13
+75,Ja'Lynn Polk,NE,WR,67,-8
+76,Xavier Legette,CAR,WR,71,-5
+77,Jalen Tolbert,DAL,WR,99,22
+78,Rashod Bateman,BAL,WR,69,-9
+79,Marvin Mims Jr.,DEN,WR,73,-6
+80,Elijah Moore,CLE,WR,85,5
+81,Josh Reynolds,DEN,WR,92,11
+82,Malik Washington,MIA,WR,117,35
+83,Roman Wilson,PIT,WR,77,-6
+84,Jermaine Burton,CIN,WR,79,-5
+85,Darius Slayton,NYG,WR,82,-3
+86,Malachi Corley,NYJ,WR,84,-2
+87,Van Jefferson,PIT,WR,118,31
+88,Jalin Hyatt,NYG,WR,80,-8
+89,Tyler Boyd,TEN,WR,78,-11
+90,K.J. Osborn,NE,WR,98,8
+91,Tyquan Thornton,NE,WR,139,48
+92,Kendrick Bourne,NE,WR,90,-2
+93,Olamide Zaccheaus,WAS,WR,136,43
+94,DJ Chark Jr.,LAC,WR,86,-8
+95,Jahan Dotson,PHI,WR,72,-23
+96,Jalen Nailor,MIN,WR,125,29
+97,Noah Brown,WAS,WR,105,8
+98,Jordan Whittington,LAR,WR,116,18
+99,Ricky Pearsall,SF,WR,74,-25
+100,Tre Tucker,LV,WR,114,14
+101,Brenden Rice,LAC,WR,104,3
+102,Ray-Ray McCloud III,ATL,WR,130,28
+103,Kalif Raymond,DET,WR,110,7
+104,Nelson Agholor,BAL,WR,120,16
+105,Troy Franklin,DEN,WR,87,-18
+106,Jonathan Mingo,CAR,WR,96,-10
+107,JuJu Smith-Schuster,KC,WR,134,27
+108,Quentin Johnston,LAC,WR,76,-32
+109,Javon Baker,NE,WR,89,-20
+110,Cedrick Wilson Jr.,NO,WR,133,23
+111,Jauan Jennings,SF,WR,113,2
+112,Calvin Austin III,PIT,WR,123,11
+113,Trey Palmer,TB,WR,102,-11
+114,A.T. Perry,NO,WR,93,-21
+115,Odell Beckham Jr.,MIA,WR,88,-27
+116,Cedric Tillman,CLE,WR,101,-15
+117,Zay Jones,ARI,WR,100,-17
+118,Allen Lazard,NYJ,WR,121,3
+119,Deonte Harty,BAL,WR,176,57
+120,Jake Bobo,SEA,WR,142,22
+121,Treylon Burks,TEN,WR,95,-26
+122,Tutu Atwell,LAR,WR,109,-13
+123,Mack Hollins,BUF,WR,135,12
+124,John Metchie III,HOU,WR,126,2
+125,Justin Watson,KC,WR,129,4
